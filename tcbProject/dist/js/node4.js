@@ -1,0 +1,1 @@
+var lastIndex=__dirname.lastIndexOf("\\"),abPath=__dirname.slice(0,lastIndex);exports.node4=function(e,a){a.sendFile(abPath+"/dist/html/node4.html")};

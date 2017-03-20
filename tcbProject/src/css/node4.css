@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, ol, dl {
+  list-style: none; }
+
+header {
+  width: 100%;
+  height: 33px;
+  border-bottom: 1px solid #666;
+  font-size: 10px;
+  color: #666;
+  background: url(../images/homeImg/bg.png) repeat-x; }
+  header span {
+    font-size: 18px;
+    color: green; }
+  header ul {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around; }
+    header ul li:nth-child(7) a {
+      font-size: 14px;
+      color: red; }
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #666; }
+
+.head {
+  text-align: center;
+  line-height: 33px;
+  width: 90%;
+  height: auto;
+  margin: 0 auto; }
+
+.l {
+  float: left; }
+
+.r {
+  float: right; }
+
+.imgs {
+  width: 100%;
+  height: auto; }
+  .imgs img {
+    width: 100%;
+    height: auto;
+    display: block; }
+
+.warp {
+  width: 100%;
+  height: auto;
+  background: #ccc;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .warp .biao {
+    width: 90%;
+    height: auto;
+    margin: 0 auto; }
+    .warp .biao ul {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .warp .biao ul li {
+        width: 18%;
+        height: 35px;
+        border-radius: 5px;
+        background: #fff;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+        line-height: 35px;
+        border: 1px solid #ccc; }
+        .warp .biao ul li:hover {
+          border-radius: 5px;
+          border: 1px solid deepskyblue; }
+
+.botton-min {
+  width: 90%;
+  height: auto;
+  margin: 0 auto; }
+  .botton-min .left-l {
+    width: 70%;
+    height: auto;
+    float: left; }
+    .botton-min .left-l .left-l-top {
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      background: #f4f4f4; }
+      .botton-min .left-l .left-l-top span {
+        display: inline-block;
+        width: 15%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+        box-sizing: border-box; }
+        .botton-min .left-l .left-l-top span div {
+          width: 80px;
+          height: 30px;
+          border: 1px solid green;
+          text-align: center;
+          line-height: 30px;
+          background: #fff; }
+    .botton-min .left-l .left-l-main {
+      width: 100%;
+      height: 500px; }
+      .botton-min .left-l .left-l-main li {
+        width: 100%;
+        height: 150px;
+        border-bottom: 1px solid #ccc; }
+        .botton-min .left-l .left-l-main li:hover {
+          background: #f4f4f4;
+          cursor: pointer; }
+          .botton-min .left-l .left-l-main li:hover > div {
+            display: block;
+            background: #fff; }
+        .botton-min .left-l .left-l-main li .overFlow, .botton-min .left-l .left-l-main li .addr {
+          width: 390px;
+          word-break: keep-all;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        .botton-min .left-l .left-l-main li .btn {
+          width: 150px;
+          height: 40px;
+          border: 1px solid green;
+          text-align: center;
+          line-height: 40px;
+          float: right;
+          margin-top: 55px;
+          display: none; }
+          .botton-min .left-l .left-l-main li .btn a {
+            font-size: 18px;
+            color: green; }
+        .botton-min .left-l .left-l-main li .shop_ico {
+          width: 120px;
+          height: auto;
+          float: left;
+          margin-top: 15px; }
+          .botton-min .left-l .left-l-main li .shop_ico img {
+            width: 100%;
+            height: auto; }
+        .botton-min .left-l .left-l-main li > span {
+          float: left;
+          margin-top: 20px;
+          margin-left: 20px; }
+          .botton-min .left-l .left-l-main li > span p a {
+            font-size: 16px;
+            color: green;
+            padding-right: 20px; }
+        .botton-min .left-l .left-l-main li p {
+          font-size: 14px;
+          color: #666;
+          line-height: 40px; }
+    .botton-min .left-l .left-l-foot {
+      margin: 0 auto;
+      padding: 20px;
+      width: 80%;
+      height: auto;
+      clear: both;
+      display: flex;
+      justify-content: space-around;
+      font-size: 14px;
+      color: #666; }
+      .botton-min .left-l .left-l-foot div {
+        width: 100px;
+        height: 40px;
+        border: 1px solid #ccc;
+        text-align: center;
+        line-height: 40px; }
+      .botton-min .left-l .left-l-foot ul {
+        width: 70%;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around; }
+        .botton-min .left-l .left-l-foot ul li {
+          width: 40px;
+          height: 40px;
+          border: 1px solid #ccc;
+          text-align: center;
+          line-height: 40px; }
+  .botton-min .left-r {
+    width: 25%;
+    height: 40px;
+    float: right;
+    background: #f4f4f4;
+    border: 1px solid #ccc; }
+    .botton-min .left-r > p {
+      font-size: 18px;
+      color: #5a5a5a;
+      text-align: center;
+      line-height: 40px; }
+    .botton-min .left-r ul {
+      width: 100%;
+      border: 1px solid #ccc;
+      clear: both; }
+      .botton-min .left-r ul li {
+        width: 100%;
+        height: 110px;
+        border-bottom: 1px solid #ccc;
+        box-sizing: border-box; }
+        .botton-min .left-r ul li div {
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          line-height: 30px;
+          font-size: 24px;
+          color: red;
+          border: 2px solid red;
+          border-radius: 50%;
+          float: left;
+          margin: 35px 15px; }
+        .botton-min .left-r ul li img {
+          width: 50px;
+          height: auto;
+          margin: 25px 10px;
+          float: left; }
+        .botton-min .left-r ul li p {
+          width: 150px;
+          line-height: 30px;
+          float: left; }
+          .botton-min .left-r ul li p a {
+            font-size: 14px;
+            color: green; }
+
+.bottomMain {
+  width: 90%;
+  height: auto;
+  margin: 0 auto; }
+  .bottomMain .left-top {
+    margin: 15px 0 15px 0;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between; }
+    .bottomMain .left-top div {
+      width: 19%;
+      height: 40px;
+      border: 1px solid green; }
+      .bottomMain .left-top div span {
+        line-height: 40px;
+        padding-left: 15px; }
+    .bottomMain .left-top div:nth-child(3) {
+      width: 60%;
+      height: auto; }
+      .bottomMain .left-top div:nth-child(3) input {
+        width: 75%;
+        height: 40px;
+        border: 0;
+        text-indent: 2em; }
+      .bottomMain .left-top div:nth-child(3) span {
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        display: block;
+        width: 25%;
+        height: auto;
+        float: right;
+        background: #2a8028; }
+
+footer {
+  width: 100%;
+  height: 290px;
+  border-top: 1px solid lightgray; }
+  footer #heads {
+    position: relative;
+    left: 490px;
+    margin-left: -320px;
+    width: 980px;
+    height: 114px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between; }
+    footer #heads div {
+      width: 196px;
+      height: 114px; }
+      footer #heads div span {
+        width: 43px;
+        height: 43px;
+        display: inline-block;
+        margin-left: 28px;
+        margin-right: 6px;
+        background-image: url(../images/1.gif);
+        background-repeat: no-repeat;
+        background-position: 0 0; }
+      footer #heads div .conT {
+        float: right;
+        width: 112px;
+        height: 114px; }
+        footer #heads div .conT h3 {
+          line-height: 36px;
+          color: gray; }
+        footer #heads div .conT a {
+          color: grey;
+          display: block;
+          text-decoration: none;
+          line-height: 26px; }
+  footer #foot {
+    width: 100%;
+    height: 94px; }
+    footer #foot h5 {
+      width: 100%;
+      height: 24px;
+      text-align: center;
+      line-height: 24px;
+      font: 12px/1.5em "Microsoft YaHei","Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+      color: #5A5A5A; }

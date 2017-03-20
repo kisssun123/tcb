@@ -1,0 +1,250 @@
+@mixin baseStyle($w:1200px, $h:auto, $c:auto){
+	width: $w;
+	height: $h;
+	background: $c;
+	margin: 0 auto;
+}
+@mixin baseFont($s:16px, $lh:auto, $f:'微软雅黑',$c:auto){
+	font-size:$s;
+	line-height:$lh;
+	font-family:$f;
+	color:$c;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li,ol,dl,dd,dt{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	@include baseStyle($w:100%,$h:32px,$c:linear-gradient(to bottom,white,rgb(222,222,222)));
+	border: 1px solid #ccc;
+	.headerWidth{
+		@include baseStyle($w:1200px);
+		ul{
+			float: left;
+			height: 32px;
+			li{
+				float: left;
+				padding: 0 8px;
+				position: relative;
+				@include baseFont($s:14px, $lh:32px,$c:green);
+				a{
+					@include baseFont($s:12px, $lh:32px,$c:gray);
+				}
+				background-image: url(../images/index/header-1.gif);
+				background-repeat: no-repeat;
+				background-position: 100% 7px;
+				height: 30px;
+			}
+		}
+		ol{
+			float: right;
+			@for $i from 1 to 7 {
+				.lis#{$i}{
+					float: left;
+					padding: 0 15px;
+					background-image: url(../images/index/header-1.gif);
+					background-repeat: no-repeat;
+					background-position: 100% 7px;
+					@include baseFont($s:12px, $lh:32px,$c:gray);
+					a{
+						@include baseFont($s:12px, $lh:32px,$c:gray);
+					}
+					.span1{
+						display: inline-block;
+						width: 20px;
+						height: 20px;
+						background-image: url(../images/index/header-1.gif);
+						background-repeat: no-repeat;
+						background-position: 12px -33px;
+					}
+				}
+			}
+			.lis7{
+				float: left;
+				padding-left: 10px;
+				a{
+					@include baseFont($s:12px, $lh:32px,$c:red);
+				}
+			}
+		}
+	}
+}
+
+.turn1{
+	height: 420px;
+	    
+	.turn{
+		@include baseStyle($w:100%,$h:400px);
+	    position: relative;
+	    padding: 0;
+	    .swiper-container {
+	        width: 100%;
+	        height: 100%;
+	        .turnCon{
+	        	margin-top: 250px;
+	        	display: block;
+	        	height: 40px;
+	        	font-size: 40px;
+	        }
+	        
+	    }
+	    .swiper-slide {
+	    	@include baseStyle($w:100%,$h:100%);
+	        text-align: center;
+	        font-size: 18px;
+	        background: #fff;
+	        display: -webkit-box;
+	        display: -ms-flexbox;
+	        display: -webkit-flex;
+	        display: flex;
+	        -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	        -webkit-justify-content: center;
+	        justify-content: center;
+	        -webkit-box-align: center;
+	        -ms-flex-align: center;
+	        -webkit-align-items: center;
+	        align-items: center;
+	        overflow: hidden;
+	        img{
+	        	@include baseStyle($w:auto,$h:392px);
+	        }
+	    }
+	}
+}
+.main1{
+	h2{
+		@include baseStyle($h:63px);
+		@include baseFont($s:24px,$lh:63px);
+		text-align: center;
+		font-weight: bolder;
+	}
+	.main1-1{
+		@include baseStyle($h:163px);
+		.main1-1-1{
+			text-align: center;
+			height: 100%;
+			float: left;
+			width: 133px;
+			padding-top: 10px;
+			img{
+				width: 68px;
+				height: 68px;
+			}
+			p{
+				margin-top: 10px;
+				@include baseFont($s:18px,$lh:20px);
+				color: #ccc;
+			}
+		}
+	}
+	.main1-2{
+		@include baseStyle($h:auto);
+		ul{
+			margin-top: 45px;
+			height: 146px;
+			display: none;
+			li{
+				float: left;
+				width: 220px;
+				margin-left: 15px;
+				border: 1px solid gray;
+				text-align: center;
+				@include baseFont($s:18px,$lh:50px,$c:gray);
+			}
+		}
+	}
+}
+.main2{
+	@include baseStyle($h:auto);
+	h2{
+		@include baseStyle($h:105px);
+		@include baseFont($s:24px,$lh:105px);
+		text-align: center;
+		font-weight: bolder;
+	}
+	div{
+		text-align: center;
+		@include baseStyle($h:323px);
+		img{
+			width: 203px;
+			height: 275px;
+			margin: 0 12px;
+			box-shadow: 0 0 1px 1px gray;
+		}
+	}
+	.main2-22{
+		@include baseStyle($h:218px);
+	}
+}
+.main3{
+	@include baseStyle($w:100%,$h:auto,$c:#39f);
+	text-align: center;
+	img{
+		margin: 0 auto;
+	}
+}
+
+
+
+.footer1{
+	@include baseStyle($w:100%,$h:155px,$c:gray);
+	.footer{
+		@include baseStyle($w:1200px,$h:155px,$c:gray);
+		@for $i from 1 through 5 {
+			.footer-#{$i} {
+				@include baseStyle($w:196px,$h:114px);
+				margin-left: 40px;
+				margin-top: 20px;
+				float: left;
+				li{float: left;}
+				.footer-1-1{
+					width: 84px;
+					height: 43px;
+					overflow: hidden;
+					img{
+						margin-top: -44px;
+						float: right;
+						margin-right: 5px;
+					}
+				}
+				.footer-1-2{
+					width: 112px;
+					p{
+						@include baseFont($s:16px,$lh:36px,$c:white);
+					}
+					a{
+						@include baseFont($s:12px,$lh:26px,$c:white);
+						display: inline-block;
+					}
+				}
+			}
+		}
+	}
+}
+.p1{
+	@include baseStyle($w:100%,$h:54px,$c:rgb(55,55,55));
+	@include baseFont($s:12px,$lh:24px,$c:white);
+	padding-top: 30px;
+	text-align: center;
+	a{
+		@include baseFont($s:12px,$lh:24px,$c:white);
+
+	}
+}
+.p2{
+	@include baseStyle($w:100%,$h:24px,$c:rgb(55,55,55));
+	@include baseFont($s:12px,$lh:24px,$c:white);
+	text-align: center;
+}
+.p3{
+	@include baseStyle($w:100%,$h:100px,$c:rgb(55,55,55));
+	@include baseFont($s:12px,$lh:24px,$c:rgb(136, 136, 136));
+	text-align: center;
+}

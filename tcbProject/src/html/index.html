@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="../css/index.css" />
+	<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=866ae0e8dc57bd0f5342dea3de30abf0"></script> 
+	<link rel="stylesheet" href="../libs/css/swiper-3.4.1.min.css" />
+	<script type="text/javascript" src="../libs/js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<!--地图蒙版-->
+	<div id="mb">
+		<div id="container"></div>
+	</div>
+	<div id="wrap">
+		<head>
+			<div id="topH">
+				<ul id="left">
+					<li><span>北京</span> <a href="" id="qhcs">[切换城市]</a></li>
+					<div id="city"></div>
+					<li class="last"><a href="">同城邦首页</a></li>
+				</ul>
+				<ul id="right">
+					<li><a href="">登录</a></li>
+					<li><a href="">注册</a></li>
+					<li><a href="">我的订单</a></li>
+					<li><a href="">在线客服</a>(9:00-21:00)</li>
+					<li><a href="">客户服务</a></li>
+					<li><a href="">论坛</a></li>
+					<li><a href="" class="red">投诉建议</a></li>
+				</ul>
+			</div>
+			<div id="log">
+				<div id="logo">
+					<img src="../images/t01dbcc1db722b5c99c.png" alt="" />
+				</div>
+					<ul>
+						<li><a href="../html/used.html">二手良品</a></li>
+						<li><a href="../html/index2.html">手机回收</a></li>
+						<li><a href="../html/index3.html">手机维修</a></li>
+						<li><a href="../html/node4.html">电脑维修</a></li>
+						<li><a href="../html/trade.html">以旧换新</a></li>
+						<li><a href="../html/node6.html">手机租用</a></li>
+					</ul>
+			</div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+			        <div class="swiper-slide">
+				        	<a href=""><img src="../images/index-turn5.png" alt="" /></a>
+			        </div>
+			        <div class="swiper-slide">
+			        		<a href=""><img src="../images/index-turn4.png" alt="" /></a>
+			        </div>
+			        <div class="swiper-slide">
+			        		<a href=""><img src="../images/index-turn3.jpg" alt="" /></a>
+			        </div>
+			        <div class="swiper-slide">
+			        		<a href=""><img src="../images/index-turn2.jpg" alt="" /></a>
+			        </div>
+			        <div class="swiper-slide">
+			        		<a href=""><img src="../images/index-turn1.jpg" alt="" /></a>
+			        </div>
+		    	</div>
+		    	<ul>
+		    		<li><p style="background-image: url(../images/t01280de86e9d9dc470.png);background-position: -10px -6px;background-repeat: no-repeat;">修手机/pad</p></li>
+		    		<li><p style="background-image: url(../images/t01280de86e9d9dc470.png);background-position: -10px -106px;background-repeat: no-repeat;">修电脑</p></li>
+		    		<li><p style="background-image: url(../images/t01280de86e9d9dc470.png);background-position: -10px -206px;background-repeat: no-repeat;">买手机/电脑</p></li>
+		    		<li><p style="background-image: url(../images/t01280de86e9d9dc470.png);background-position: -10px -306px;background-repeat: no-repeat;">买二手机</p></li>
+		    	</ul>
+				<!--分页器-->
+				<div class="swiper-pagination"></div>
+			</div>
+			<div id="center">
+				<a href=""><img src="../images/t012b0c32614bcdc13c.jpg"/></a>
+				<a href=""><img src="../images/t01aad5c130b8653368.jpg"/></a>
+				<a href=""><img src="../images/t01dc8f9631026e7e17.jpg"/></a>
+				<a href=""><img src="../images/t01fc1fd0e5522663ba.jpg"/></a>
+			</div>
+			<div class="cont">
+				<div class="Ctop">
+					<h2>热门手机回收</h2>
+					<a href="" class="png">查看更多</a>
+				</div>
+					<div class="jpg">
+						<div class="Jleft">
+							<img src="../images/huishou-1.png"/>
+						</div>
+						<div class="Jright">
+							<a href="">
+								<div>
+									<img src="../images/t01068fe5e76aa7e910.jpg" alt="" />
+									<p>苹果iphone 6</p>
+								</div>
+							</a>
+							<a href="">
+								<div>
+									<img src="../images/t01ddf19cbaa3a791b7.jpg" alt="" />
+									<p>苹果iphone 5s</p>
+								</div>
+							</a>
+							<a href="">
+								<div>
+									<img src="../images/t0154d371a550ee894f.jpg"alt="" />
+									<p>小米 M4</p>
+								</div>
+							</a>
+							<a href="">
+								<div>
+									<img src="../images/t01078047308a85471c.jpg" alt="" />
+									<p>华为 Mate 7</p>
+								</div>
+							</a>
+							<a href="">
+								<div>
+									<img src="../images/t0154d371a550ee894f.jpg" alt="" />
+									<p>vivo MAX5</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="cont">
+				<div class="Ctop">
+					<h2>二手良品精选</h2>
+					<a href="" class="png">查看更多</a>
+				</div>
+					<div class="jpg">
+						<div class="Jleft">
+							<img src="../images/ershou-1.png"/>
+						</div>
+						<div class="Jright">
+							<a href="">
+								<div>
+									<img src="../images/t013ab896a621a99b91.jpg" alt="" class="con" />
+									<p>苹果iphone 6</p>
+									<p class="money">￥4699</p>
+								</div>
+							</a>
+							<a href="">
+								<div>
+									<img src="../images/t013ab896a621a99b91.jpg" alt="" class="con"/>
+									<p>苹果iphone 5s</p>
+									<p class="money">￥3699</p>
+								</div>
+							</a>
+							<a href="">
+								<div>
+									<img src="../images/t013ab896a621a99b91.jpg"alt="" class="con"/>
+									<p>小米 M4</p>
+									<p class="money">￥2699</p>
+								</div>
+							</a>
+							<a href="">
+								<div>
+									<img src="../images/t013ab896a621a99b91.jpg" alt="" class="con"/>
+									<p>华为 Mate 7</p>
+									<p class="money">￥2699</p>
+								</div>
+							</a>
+							<a href="">
+								<div>
+									<img src="../images/t013ab896a621a99b91.jpg" alt="" class="con"/>
+									<p>vivo MAX5</p>
+									<p class="money">￥3699</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="content">
+				<div id="Cnav">
+					<h2>到店维修</h2>
+				</div>
+				<div id="Ccenter">
+					<div id="contLeft">
+						<div id="row">
+							<div id="colLeft">
+								<div id="colCity">
+										<span>北京</span><img src="../images/t.png" alt="" />
+								</div>
+								<div id="qx">
+										<span>全部区县</span><img src="images/t.png" alt="" />
+								</div>
+							</div>
+							<div id="colRight">
+								<input type="text" placeholder="输入您的位置寻找附近的商家" id="txt"/>
+								<input type="submit" id="sub" value="搜索"/>
+							</div>
+						</div>
+						<div id="Lcenter">
+							<div id="LCtop">
+								<ul>
+									<li>默认排序</li>
+									<li>按成交量</li>
+									<li>按人气</li>
+								</ul>
+								<div id="check">
+									<input type="checkbox"/>先行赔付
+								</div>
+								<div id="dt">
+									<img src="../images/dt.png"/><p>地图模式</p>
+								</div>
+								
+							</div>
+							<div id="Lcontent">
+								<div class="LCont hr">
+									<div class="imgs">
+										<img src="http://p0.qhimg.com/edr/140__140/ss/30_105/t01c8ff6cbe7820d83d.jpg" alt="" />
+									</div>
+									<div class="txt">
+										<h3>
+											<a href="#">北京鸿翔科技</a>
+											<div class="dj">
+												店铺等级:<span></span><span></span><span></span><span></span>
+											</div>
+										</h3>
+										<div class="zy">
+											主营：<span>台式机，笔记本芯片级维修，数据恢复、监控安装、网络布线</span>
+										</div>
+										<div class="dz">地址：<span>北京海淀区西三旗旗胜家园1号楼底商103号</span></div>
+									</div>
+									<div class="score">
+										<div class="pf">先行赔付</div>
+										<div class="tc">同城帮认证</div>
+										<div class="rq">人气:<span>24006</span>次浏览</div>
+									</div>
+									<a href="" class="jr">进入店铺</a>
+								</div>
+								<div class="LCont hr">
+									<div class="imgs">
+										<img src="http://p0.qhimg.com/edr/140__140/ss/30_105/t01c8ff6cbe7820d83d.jpg" alt="" />
+									</div>
+									<div class="txt">
+										<h3>
+											<a href="#">北京鸿翔科技</a>
+											<div class="dj">
+												店铺等级:<span></span><span></span><span></span><span></span>
+											</div>
+										</h3>
+										<div class="zy">
+											主营：<span>台式机，笔记本芯片级维修，数据恢复、监控安装、网络布线</span>
+										</div>
+										<div class="dz">地址：<span>北京海淀区西三旗旗胜家园1号楼底商103号</span></div>
+									</div>
+									<div class="score">
+										<div class="pf">先行赔付</div>
+										<div class="tc">同城帮认证</div>
+										<div class="rq">人气:<span>24006</span>次浏览</div>
+									</div>
+									<a href="" class="jr">进入店铺</a>
+								</div>
+								<div class="LCont hr">
+									<div class="imgs">
+										<img src="http://p0.qhimg.com/edr/140__140/ss/30_105/t01c8ff6cbe7820d83d.jpg" alt="" />
+									</div>
+									<div class="txt">
+										<h3>
+											<a href="#">北京鸿翔科技</a>
+											<div class="dj">
+												店铺等级:<span></span><span></span><span></span><span></span>
+											</div>
+										</h3>
+										<div class="zy">
+											主营：<span>台式机，笔记本芯片级维修，数据恢复、监控安装、网络布线</span>
+										</div>
+										<div class="dz">地址：<span>北京海淀区西三旗旗胜家园1号楼底商103号</span></div>
+									</div>
+									<div class="score">
+										<div class="pf">先行赔付</div>
+										<div class="tc">同城帮认证</div>
+										<div class="rq">人气:<span>24006</span>次浏览</div>
+									</div>
+									<a href="" class="jr">进入店铺</a>
+								</div>
+								<div class="LCont hr">
+									<div class="imgs">
+										<img src="http://p0.qhimg.com/edr/140__140/ss/30_105/t01c8ff6cbe7820d83d.jpg" alt="" />
+									</div>
+									<div class="txt">
+										<h3>
+											<a href="#">北京鸿翔科技</a>
+											<div class="dj">
+												店铺等级:<span></span><span></span><span></span><span></span>
+											</div>
+										</h3>
+										<div class="zy">
+											主营：<span>台式机，笔记本芯片级维修，数据恢复、监控安装、网络布线</span>
+										</div>
+										<div class="dz">地址：<span>北京海淀区西三旗旗胜家园1号楼底商103号</span></div>
+									</div>
+									<div class="score">
+										<div class="pf">先行赔付</div>
+										<div class="tc">同城帮认证</div>
+										<div class="rq">人气:<span>24006</span>次浏览</div>
+									</div>
+									<a href="" class="jr">进入店铺</a>
+								</div>
+								<div class="LCont">
+									<div class="imgs">
+										<img src="http://p0.qhimg.com/edr/140__140/ss/30_105/t01c8ff6cbe7820d83d.jpg" alt="" />
+									</div>
+									<div class="txt">
+										<h3>
+											<a href="#">北京鸿翔科技</a>
+											<div class="dj">
+												店铺等级:<span></span><span></span><span></span><span></span>
+											</div>
+										</h3>
+										<div class="zy">
+											主营：<span>台式机，笔记本芯片级维修，数据恢复、监控安装、网络布线</span>
+										</div>
+										<div class="dz">地址：<span>北京海淀区西三旗旗胜家园1号楼底商103号</span></div>
+									</div>
+									<div class="score">
+										<div class="pf">先行赔付</div>
+										<div class="tc">同城帮认证</div>
+										<div class="rq">人气:<span>24006</span>次浏览</div>
+									</div>
+									<a href="" class="jr">进入店铺</a>
+								</div>
+								<div id="pages">
+									<ul>
+										<li>1</li>
+										<li>2</li>
+										<li>3</li>
+										<li>4</li>
+										<li>5</li>
+										<li>6</li>
+										<li>7</li>
+										<li>8</li>
+										<li>9</li>
+										<li>10</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="contRight">
+						<h3>商家好评榜</h3>
+						<div class="item">
+							<p class="cor">①</p>
+							<a href=""><img src="../images/t017106a8e035ee20cd.jpg"></a>
+							<div>
+								<p><a href="">连锦城维修中心</a></p>
+								<p><span>12003</span>条评论</p>
+							</div>
+						</div>
+						<div class="item">
+							<p class="cor">②</p>
+							<a href=""><img src="../images/t017106a8e035ee20cd.jpg"></a>
+							<div>
+								<p><a href="">连锦城维修中心</a></p>
+								<p><span>12003</span>条评论</p>
+							</div>
+						</div>
+						<div class="item">
+							<p class="cor">③</p>
+							<a href=""><img src="../images/t017106a8e035ee20cd.jpg"></a>
+							<div>
+								<p><a href="">连锦城维修中心</a></p>
+								<p><span>12003</span>条评论</p>
+							</div>
+						</div>
+						<div class="item">
+							<p class="gary">④</p>
+							<a href=""><img src="../images/t017106a8e035ee20cd.jpg"></a>
+							<div>
+								<p><a href="">连锦城维修中心</a></p>
+								<p><span>12003</span>条评论</p>
+							</div>
+						</div>
+						<div class="item">
+							<p class="gary">⑤</p>
+							<a href=""><img src="../images/t017106a8e035ee20cd.jpg"></a>
+							<div>
+								<p><a href="">连锦城维修中心</a></p>
+								<p><span>12003</span>条评论</p>
+							</div>
+						</div>
+						<div class="item">
+							<p class="gary">⑥</p>
+							<a href=""><img src="../images/t017106a8e035ee20cd.jpg"></a>
+							<div>
+								<p><a href="">连锦城维修中心</a></p>
+								<p><span>12003</span>条评论</p>
+							</div>
+						</div>
+						<div class="item">
+							<p class="gary">⑦</p>
+							<a href=""><img src="../images/t017106a8e035ee20cd.jpg"></a>
+							<div>
+								<p><a href="">连锦城维修中心</a></p>
+								<p><span>12003</span>条评论</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</head>
+		<footer>
+			<div id="heads">
+				<div>
+					<span></span>
+					<div class="conT">
+						<h3>购物指南</h3>
+						<a href="">购物流程</a>
+						<a href="">用户注册</a>
+						<a href="">帮助文档</a>
+					</div>
+				</div>
+				<div>
+					<span></span>
+					<div class="conT">
+						<h3>购物指南</h3>
+						<a href="">购物流程</a>
+						<a href="">用户注册</a>
+						<a href="">帮助文档</a>
+					</div>
+				</div>
+				<div>
+					<span></span>
+					<div class="conT">
+						<h3>购物指南</h3>
+						<a href="">购物流程</a>
+						<a href="">用户注册</a>
+						<a href="">帮助文档</a>
+					</div>
+				</div>
+				<div>
+					<span></span>
+					<div class="conT">
+						<h3>购物指南</h3>
+						<a href="">购物流程</a>
+						<a href="">用户注册</a>
+						<a href="">帮助文档</a>
+					</div>
+				</div>
+				<div>
+					<span></span>
+					<div class="conT">
+						<h3>购物指南</h3>
+						<a href="">购物流程</a>
+						<a href="">用户注册</a>
+						<a href="">帮助文档</a>
+					</div>
+				</div>
+			</div>
+			<div id="foot">
+				<h5 id='F-p1'>客服电话：4000-399-360 / 010-53767360 投诉建议 网站地图</h5>
+				<h5 >Copyright © 2005-2017  360.CN  All Rights Reserved  360安全中心</h5>
+				<h5>京ICP备08010314号-19    京公网安备110000000006号</h5>
+			</div>
+		</footer>
+	</div>
+			
+</body>
+	<script src="../libs/js/swiper-3.4.1.jquery.min.js"></script>
+	<script src="../libs/js/swiper-3.4.1.min.js"></script>
+	<script src="../js/index.js"></script>
+</html>

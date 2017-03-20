@@ -1,0 +1,435 @@
+.list, body section .used_section_one, html section .used_section_one, body section .used_section_one .used_one_con, html section .used_section_one .used_one_con, body section .used_section_one .used_one_con li a, html section .used_section_one .used_one_con li a, body section .used_section_three .used_com_wrap ._used_center .center_one, html section .used_section_three .used_com_wrap ._used_center .center_one, body section .used_section_three .used_com_wrap ._used_center .center_one li a, html section .used_section_three .used_com_wrap ._used_center .center_one li a, body section .used_section_four .recently, html section .used_section_four .recently, body section .used_section_four .pagination ul, html section .used_section_four .pagination ul, body section .used_section_six .phoneType_uls, html section .used_section_six .phoneType_uls {
+  text-decoration: none;
+  list-style: none;
+  display: flex; }
+
+li {
+  list-style: none; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+  body header, html header {
+    background: white;
+    border-bottom: 1px solid grey;
+    height: 40px; }
+    body header .head_left, html header .head_left {
+      color: grey;
+      font-size: 12px; }
+      body header .head_left .left, html header .head_left .left {
+        display: flex;
+        float: left;
+        margin-left: 25px; }
+        body header .head_left .left li, html header .head_left .left li {
+          margin-right: 10px; }
+          body header .head_left .left li a, html header .head_left .left li a {
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: grey; }
+            body header .head_left .left li a:hover, html header .head_left .left li a:hover {
+              text-decoration: underline; }
+      body header .head_left .right, html header .head_left .right {
+        display: flex;
+        float: right;
+        margin-right: 55px; }
+        body header .head_left .right li, html header .head_left .right li {
+          margin-right: 10px; }
+          body header .head_left .right li a, html header .head_left .right li a {
+            color: grey;
+            text-decoration: none; }
+            body header .head_left .right li a:hover, html header .head_left .right li a:hover {
+              text-decoration: underline; }
+  body section, html section {
+    width: 100%;
+    background: #fff; }
+    body section .used_section_one, html section .used_section_one {
+      width: 1215px;
+      margin: 0 auto; }
+      body section .used_section_one .used_logo, html section .used_section_one .used_logo {
+        width: 350px;
+        height: 70px; }
+      body section .used_section_one .used_one_con, html section .used_section_one .used_one_con {
+        width: 550px;
+        justify-content: flex-end; }
+        body section .used_section_one .used_one_con li, html section .used_section_one .used_one_con li {
+          width: 104px;
+          height: 70px; }
+          body section .used_section_one .used_one_con li a, html section .used_section_one .used_one_con li a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #666;
+            font-size: 16px; }
+            body section .used_section_one .used_one_con li a:hover, html section .used_section_one .used_one_con li a:hover {
+              color: #185; }
+          body section .used_section_one .used_one_con li .teo, html section .used_section_one .used_one_con li .teo {
+            color: #185; }
+      body section .used_section_one .used_form, html section .used_section_one .used_form {
+        display: inline-block;
+        position: relative; }
+        body section .used_section_one .used_form .used_input_text, html section .used_section_one .used_form .used_input_text {
+          width: 232px;
+          height: 37px; }
+        body section .used_section_one .used_form .used_input_text, html section .used_section_one .used_form .used_input_text {
+          position: absolute;
+          top: 15px; }
+        body section .used_section_one .used_form .used_input_submit, html section .used_section_one .used_form .used_input_submit {
+          position: absolute;
+          top: 15px;
+          width: 41px;
+          height: 43px;
+          left: 232px;
+          border: none;
+          background: url(../images/img3/t016b8b8260d2d1de20.png); }
+        body section .used_section_one .used_form .used_placeholder, html section .used_section_one .used_form .used_placeholder {
+          position: absolute;
+          z-index: 2;
+          left: 86px;
+          top: 28px;
+          display: flex; }
+          body section .used_section_one .used_form .used_placeholder a, html section .used_section_one .used_form .used_placeholder a {
+            margin-left: 10px;
+            display: inline-block;
+            font-size: 13px;
+            background: #e8e8e8;
+            color: #333;
+            height: 18px;
+            text-decoration: none; }
+          body section .used_section_one .used_form .used_placeholder .one, html section .used_section_one .used_form .used_placeholder .one {
+            width: 58.5px; }
+          body section .used_section_one .used_form .used_placeholder .two, html section .used_section_one .used_form .used_placeholder .two {
+            width: 62.5px; }
+    body section .used_section_two, html section .used_section_two {
+      width: 100%;
+      position: relative;
+      margin-top: -40px; }
+      body section .used_section_two .swiper-container, html section .used_section_two .swiper-container {
+        width: 100%; }
+        body section .used_section_two .swiper-container .swiper-wrapper p, html section .used_section_two .swiper-container .swiper-wrapper p {
+          height: 240px;
+          width: 100%; }
+        body section .used_section_two .swiper-container .swiper-wrapper .one_used, html section .used_section_two .swiper-container .swiper-wrapper .one_used {
+          background: url(../images/img3/t01cc5eaa25ee78c566.png) center; }
+        body section .used_section_two .swiper-container .swiper-wrapper .two_used, html section .used_section_two .swiper-container .swiper-wrapper .two_used {
+          background: url(../images/img3/t01e84c0c9f1bbfe76e.jpg) center; }
+        body section .used_section_two .swiper-container .swiper-wrapper .three_used, html section .used_section_two .swiper-container .swiper-wrapper .three_used {
+          background: url(../images/img3/t01058aea3372ebf3a5.jpg) center; }
+        body section .used_section_two .swiper-container .swiper-wrapper .four_used, html section .used_section_two .swiper-container .swiper-wrapper .four_used {
+          background: url(../images/img3/t01da7a921229669fca.jpg) center; }
+        body section .used_section_two .swiper-container .swiper-pagination span, html section .used_section_two .swiper-container .swiper-pagination span {
+          width: 13px;
+          height: 13px; }
+        body section .used_section_two .swiper-container .swiper-pagination-bullets, html section .used_section_two .swiper-container .swiper-pagination-bullets {
+          left: 400px; }
+          body section .used_section_two .swiper-container .swiper-pagination-bullets .swiper-pagination-bullet, html section .used_section_two .swiper-container .swiper-pagination-bullets .swiper-pagination-bullet {
+            background: white; }
+          body section .used_section_two .swiper-container .swiper-pagination-bullets .swiper-pagination-bullet-active, html section .used_section_two .swiper-container .swiper-pagination-bullets .swiper-pagination-bullet-active {
+            background: #888; }
+      body section .used_section_two .used_two_con, html section .used_section_two .used_two_con {
+        position: absolute;
+        top: 15px;
+        display: flex;
+        width: 1215px;
+        height: 240px;
+        left: 50%;
+        justify-content: space-between;
+        transform: translate(-50%, 0);
+        z-index: 4; }
+        body section .used_section_two .used_two_con .left, html section .used_section_two .used_two_con .left {
+          background: rgba(0, 0, 0, 0.7);
+          width: 300px;
+          height: 240px; }
+          body section .used_section_two .used_two_con .left .top, html section .used_section_two .used_two_con .left .top {
+            margin-top: 10px;
+            margin-left: 10px;
+            color: #fff; }
+            body section .used_section_two .used_two_con .left .top span, html section .used_section_two .used_two_con .left .top span {
+              font-weight: bolder; }
+          body section .used_section_two .used_two_con .left .conts, html section .used_section_two .used_two_con .left .conts {
+            color: #fff;
+            margin-left: 10px;
+            width: 288px; }
+            body section .used_section_two .used_two_con .left .conts a, html section .used_section_two .used_two_con .left .conts a {
+              text-align: center;
+              display: inline-block;
+              padding: 0px 3px;
+              text-decoration: none;
+              color: #fff;
+              font-size: 12px; }
+        body section .used_section_two .used_two_con .right, html section .used_section_two .used_two_con .right {
+          width: 160px;
+          height: 220px;
+          margin-top: 10px; }
+    body section .used_section_three, html section .used_section_three {
+      background: #f5f5f5;
+      height: 148px; }
+      body section .used_section_three .used_com_wrap, html section .used_section_three .used_com_wrap {
+        width: 1215px;
+        margin: 0 auto;
+        height: 148px;
+        position: relative; }
+        body section .used_section_three .used_com_wrap .a, html section .used_section_three .used_com_wrap .a {
+          display: inline-block;
+          width: 45px;
+          height: 45px;
+          position: absolute;
+          top: 64px;
+          z-index: 60; }
+        body section .used_section_three .used_com_wrap ._used_left, html section .used_section_three .used_com_wrap ._used_left {
+          left: -25px;
+          background: url(../images/img3/t01d491ca6bcf8347f1.png) 0px 0px; }
+        body section .used_section_three .used_com_wrap ._used_right, html section .used_section_three .used_com_wrap ._used_right {
+          right: -25px;
+          background: url(../images/img3/t01d491ca6bcf8347f1.png)-45px 0px; }
+        body section .used_section_three .used_com_wrap ._used_center, html section .used_section_three .used_com_wrap ._used_center {
+          display: flex;
+          justify-content: space-between; }
+          body section .used_section_three .used_com_wrap ._used_center .center_one li, html section .used_section_three .used_com_wrap ._used_center .center_one li {
+            border-left: 1px solid #ccc;
+            position: relative;
+            display: flex;
+            background: #fff;
+            height: 148px;
+            width: 304px; }
+            body section .used_section_three .used_com_wrap ._used_center .center_one li a, html section .used_section_three .used_com_wrap ._used_center .center_one li a {
+              margin-top: 30px;
+              width: 300px;
+              justify-content: space-between; }
+              body section .used_section_three .used_com_wrap ._used_center .center_one li a .computers, html section .used_section_three .used_com_wrap ._used_center .center_one li a .computers {
+                margin-left: 10px;
+                width: 80px;
+                height: 80px; }
+              body section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform, html section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform {
+                width: 169px; }
+                body section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform .first_1, html section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform .first_1 {
+                  font-size: 14px;
+                  color: #333; }
+                body section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform .first_2, html section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform .first_2 {
+                  font-size: 12px;
+                  color: #999; }
+                body section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform .first_3, html section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform .first_3 {
+                  color: #f50;
+                  height: 40px;
+                  line-height: 40px;
+                  font-size: 15px; }
+                  body section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform .first_3 .f12, html section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform .first_3 .f12 {
+                    display: inline-block;
+                    font-size: 30px; }
+                body section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform .seconds, html section .used_section_three .used_com_wrap ._used_center .center_one li a .com_inform .seconds {
+                  color: #f50;
+                  font-size: 13px; }
+            body section .used_section_three .used_com_wrap ._used_center .center_one li .link_us, html section .used_section_three .used_com_wrap ._used_center .center_one li .link_us {
+              display: inline-block;
+              position: absolute;
+              width: 115px;
+              height: 40px;
+              background: #ff3100;
+              font-size: 15px;
+              line-height: 40px;
+              color: white;
+              top: 70px;
+              right: 74px;
+              text-align: center;
+              display: none; }
+            body section .used_section_three .used_com_wrap ._used_center .center_one li:hover, html section .used_section_three .used_com_wrap ._used_center .center_one li:hover {
+              box-shadow: 0px 0px 20px #ccc; }
+    body section .used_section_four, html section .used_section_four {
+      width: 100%;
+      background: #f5f5f5;
+      margin-top: 50px; }
+      body section .used_section_four .recently, html section .used_section_four .recently {
+        margin: 0 auto;
+        width: 1215px; }
+        body section .used_section_four .recently li a, html section .used_section_four .recently li a {
+          height: 50px;
+          line-height: 50px;
+          display: inline-block;
+          padding: 0px 20px;
+          font-size: 18px;
+          text-decoration: none;
+          color: #333; }
+          body section .used_section_four .recently li a:hover, html section .used_section_four .recently li a:hover {
+            text-decoration: underline; }
+        body section .used_section_four .recently li .new, html section .used_section_four .recently li .new {
+          color: #185; }
+        body section .used_section_four .recently li .new2:hover, html section .used_section_four .recently li .new2:hover {
+          text-decoration: none; }
+      body section .used_section_four .used_phone, html section .used_section_four .used_phone {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1215px;
+        margin: 0 auto; }
+        body section .used_section_four .used_phone li, html section .used_section_four .used_phone li {
+          margin-top: 15px;
+          margin-left: 10px;
+          font-size: 12px;
+          list-style: none; }
+          body section .used_section_four .used_phone li a, html section .used_section_four .used_phone li a {
+            text-decoration: none;
+            display: inline-block;
+            background: #fff;
+            width: 230px;
+            text-align: center;
+            height: 300px; }
+            body section .used_section_four .used_phone li a .bigImg, html section .used_section_four .used_phone li a .bigImg {
+              padding-top: 40px;
+              width: 85px;
+              height: 105px; }
+            body section .used_section_four .used_phone li a .phone_model, html section .used_section_four .used_phone li a .phone_model {
+              color: #333; }
+            body section .used_section_four .used_phone li a .toLive, html section .used_section_four .used_phone li a .toLive {
+              color: #ccc;
+              margin: 15px 0px; }
+            body section .used_section_four .used_phone li a .money, html section .used_section_four .used_phone li a .money {
+              width: 290px;
+              position: relative;
+              color: orange; }
+              body section .used_section_four .used_phone li a .money span, html section .used_section_four .used_phone li a .money span {
+                margin-right: 120px;
+                font-size: 30px; }
+              body section .used_section_four .used_phone li a .money .right, html section .used_section_four .used_phone li a .money .right {
+                position: absolute;
+                top: 0;
+                right: 12px; }
+                body section .used_section_four .used_phone li a .money .right .zhekou, html section .used_section_four .used_phone li a .money .right .zhekou {
+                  width: 43px;
+                  height: 16px;
+                  font-size: 12px;
+                  color: #fff;
+                  background: url(../images/img3/t01e7d33b82039e5dab.png) center; }
+                body section .used_section_four .used_phone li a .money .right .line, html section .used_section_four .used_phone li a .money .right .line {
+                  font-size: 12px;
+                  color: #aaa;
+                  text-decoration: line-through; }
+            body section .used_section_four .used_phone li a .time, html section .used_section_four .used_phone li a .time {
+              color: #ccc;
+              margin-top: 10px; }
+            body section .used_section_four .used_phone li a:hover, html section .used_section_four .used_phone li a:hover {
+              margin-top: -3px;
+              box-shadow: 0px 0px 20px #888; }
+      body section .used_section_four .pagination, html section .used_section_four .pagination {
+        width: 100%; }
+        body section .used_section_four .pagination ul, html section .used_section_four .pagination ul {
+          width: 1215px;
+          margin: 0 auto;
+          justify-content: center; }
+          body section .used_section_four .pagination ul li, html section .used_section_four .pagination ul li {
+            margin: 15px 5px; }
+            body section .used_section_four .pagination ul li a, html section .used_section_four .pagination ul li a {
+              display: inline-block;
+              border: 1px solid #bbb;
+              color: #666;
+              padding: 7px 12px;
+              text-decoration: none; }
+          body section .used_section_four .pagination ul .shopone, html section .used_section_four .pagination ul .shopone {
+            color: #fff;
+            background: #fc6621; }
+    body section .used_section_five, html section .used_section_five {
+      width: 100%;
+      background: #f5f5f5;
+      padding-top: 30px; }
+      body section .used_section_five .phoneType, html section .used_section_five .phoneType {
+        width: 1215px;
+        margin: 0 auto;
+        font-size: 20px;
+        padding-left: 40px; }
+      body section .used_section_five .used_phone, html section .used_section_five .used_phone {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1215px;
+        margin: 0 auto; }
+        body section .used_section_five .used_phone li, html section .used_section_five .used_phone li {
+          margin-top: 15px;
+          margin-left: 10px;
+          font-size: 12px;
+          list-style: none; }
+          body section .used_section_five .used_phone li a, html section .used_section_five .used_phone li a {
+            text-decoration: none;
+            display: inline-block;
+            background: #fff;
+            width: 230px;
+            text-align: center;
+            height: 300px; }
+            body section .used_section_five .used_phone li a .bigImg, html section .used_section_five .used_phone li a .bigImg {
+              padding-top: 40px;
+              width: 85px;
+              height: 105px; }
+            body section .used_section_five .used_phone li a .phone_model, html section .used_section_five .used_phone li a .phone_model {
+              color: #333; }
+            body section .used_section_five .used_phone li a .toLive, html section .used_section_five .used_phone li a .toLive {
+              color: #aaa;
+              margin: 15px 0px; }
+            body section .used_section_five .used_phone li a .moneys, html section .used_section_five .used_phone li a .moneys {
+              color: orange;
+              font-size: 30px; }
+            body section .used_section_five .used_phone li a .times, html section .used_section_five .used_phone li a .times {
+              color: orange;
+              margin-top: 10px; }
+            body section .used_section_five .used_phone li a:hover, html section .used_section_five .used_phone li a:hover {
+              margin-top: -3px;
+              box-shadow: 0px 0px 20px #888; }
+    body section .used_section_six, html section .used_section_six {
+      width: 100%;
+      background: #f5f5f5; }
+      body section .used_section_six .phoneType1, html section .used_section_six .phoneType1 {
+        height: 27px;
+        width: 1215px;
+        padding: 20px  25px 6px;
+        font-size: 20px;
+        margin: auto; }
+      body section .used_section_six .phoneType_uls, html section .used_section_six .phoneType_uls {
+        width: 1215px;
+        margin: 0 auto;
+        flex-wrap: wrap; }
+        body section .used_section_six .phoneType_uls li, html section .used_section_six .phoneType_uls li {
+          font-size: 0; }
+          body section .used_section_six .phoneType_uls li a img, html section .used_section_six .phoneType_uls li a img {
+            width: 300px;
+            height: 200px; }
+    body section .used_section_seven, html section .used_section_seven {
+      width: 100%;
+      background: #f5f5f5;
+      padding-top: 20px; }
+      body section .used_section_seven .seven_wrap, html section .used_section_seven .seven_wrap {
+        width: 1215px;
+        margin: 0 auto;
+        display: flex;
+        position: relative; }
+        body section .used_section_seven .seven_wrap .one, html section .used_section_seven .seven_wrap .one {
+          font-size: 20px; }
+        body section .used_section_seven .seven_wrap .seven_one1, html section .used_section_seven .seven_wrap .seven_one1 {
+          height: 330px;
+          overflow: hidden; }
+          body section .used_section_seven .seven_wrap .seven_one1 .seven_one, html section .used_section_seven .seven_wrap .seven_one1 .seven_one {
+            width: 390px;
+            list-style: none;
+            height: 770px;
+            position: absolute; }
+            body section .used_section_seven .seven_wrap .seven_one1 .seven_one li, html section .used_section_seven .seven_wrap .seven_one1 .seven_one li {
+              background: #fff;
+              display: flex;
+              height: 60px;
+              padding: 20px 0px;
+              border-bottom: 1px dashed #aaa; }
+              body section .used_section_seven .seven_wrap .seven_one1 .seven_one li img, html section .used_section_seven .seven_wrap .seven_one1 .seven_one li img {
+                width: 70px; }
+              body section .used_section_seven .seven_wrap .seven_one1 .seven_one li .grade_num, html section .used_section_seven .seven_wrap .seven_one1 .seven_one li .grade_num {
+                margin-left: 85px; }
+                body section .used_section_seven .seven_wrap .seven_one1 .seven_one li .grade_num p, html section .used_section_seven .seven_wrap .seven_one1 .seven_one li .grade_num p {
+                  color: #333;
+                  margin-top: 10px;
+                  font-size: 13px; }
+  body #foot, html #foot {
+    width: 100%;
+    height: 150px;
+    background: forestgreen; }
+    body #foot #F-p1, html #foot #F-p1 {
+      padding-top: 30px; }
+    body #foot h5, html #foot h5 {
+      width: 100%;
+      height: 10px;
+      text-align: center;
+      font: 12px/1.5em "Microsoft YaHei","Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+      color: white; }

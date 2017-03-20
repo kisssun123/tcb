@@ -1,0 +1,366 @@
+@mixin base($w:auto,$h:auto){
+    width:$w;
+    height: $h;
+}
+li{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "宋体";
+}
+#wrap{
+    @include base($w:100%,$h:100%);
+    position: relative;
+}
+head{
+    width: 100%;
+}
+#topH{
+    @include base($w:100%,$h:32px);
+    border-bottom: 1px solid gray;
+    background: ghostwhite;
+    line-height: 32px;
+    font-size: 12px;
+    #left{
+        @include base(195px,32px);
+        margin-left: 15%;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+        span{
+            color: green;
+            font-size: 14px;
+        }
+        #city{
+            @include base(300px,150px);
+            background: cyan;
+            position: absolute;
+            z-index: 9999;
+            margin-top: 33px;
+            margin-left: 7%;
+            display: none;
+        }
+    }
+    #right{
+        @include base(516px,32px);
+        margin-right: 15%;
+        float: right;
+        display: flex;
+        justify-content: space-around;
+        .red{
+            color: red;
+        }
+    }
+    ul{
+        color: gray;
+        li{
+            float: left;
+
+            a{
+                color: gray;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    
+}
+#logo{
+    @include base(100%,97px);
+    margin:0 auto;
+    border-bottom: 3px solid greenyellow;
+    margin-bottom: 10px;
+    img{
+        margin-top: 20px;
+        float: left;
+        margin-left: 15%;
+    }
+    #sosu{
+        @include base(733px,97px);
+        float: left;
+        #ss{
+            margin-left: 50px;
+            margin-top: 18px;
+            @include base(566px,20px);
+            a{
+                padding: 4px 10px;
+                margin-right: 5px;
+                text-decoration: none;
+                color: black;
+                font-size:12px; 
+            }
+        }
+        #soso{
+            margin-left: 50px;
+            @include base(566px,43px);
+            background: greenyellow;
+            margin-top: 3px;
+            #txt{
+                @include base(488px,33px);
+                border: none;
+                margin-top: 5px;
+                margin-left: 5px;
+                outline: none;
+            }
+            .sos{
+                @include base(78px,39px);
+                border: none;
+                margin-left: -15px;
+                background: greenyellow;
+                color: white;
+                font-size:  inherit;
+                cursor: pointer;
+                outline: none;
+            }
+        }
+    }
+}
+#Ctop{
+    @include base(960px);
+    margin-left: 15%;
+    #info{
+        @include base(918px,122px);
+        padding: 20px;
+        border:1px solid lightgrey;
+        margin-bottom: 10px;
+        #png{
+            @include base(110px,110px);
+            float: left;
+            padding: 4px;
+            border: 1px solid lightgrey;
+            margin-top: 2px;
+            margin-right: 20px;
+            img{
+                 @include base(110px,110px);
+            }
+        }
+        #nr{
+            float: left;
+            @include base(770px,117px);
+            #dp{
+                @include base(500px,117px);
+                float: left;
+                h3{
+                    vertical-align: middle;
+                    @include base(500px,29px);
+                    line-height: 29px;
+                    img{
+                        margin-left: 2px;
+                    }
+                }
+                p{
+                    @include base(500px,28px);
+                    line-height: 28px;
+                    font-size: 12px;
+                    color: black;
+                    overflow: hidden;
+                    img{
+                        vertical-align: middle;
+                    }
+                    span{
+                        margin-right: 5px;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: blue;
+                    }
+                    #phone{
+                        color: orange;
+                    }
+                }
+            }
+            #timor{
+                float: right;
+                @include base(250px,117px);
+                font-size: 12px;
+                color: black;
+               p{
+                   text-align: right;
+                   img{
+                   vertical-align: middle;
+                   }
+                   #cj{
+                       color: orange;
+                   }
+                   line-height: 28px;
+                   @include base(250px,28px);
+               }
+            }
+        }
+    }
+    #goga{
+        @include base(938px,34px);
+        padding-left: 20px;
+        border: 1px solid lightgrey;
+        margin-bottom: 14px;
+        p{
+            line-height: 34px;
+            span{
+                color: red;
+            }
+        }
+    }
+    #conter{
+        @include base(960px);
+        #Cleft{
+            @include base(760px);
+            #sub{
+                @include base(760px,40px);
+                margin-bottom: 10px;
+                border: 1px solid lightgrey;
+                ul{
+                    li{
+                        float: left;
+                        padding:0 10px;
+                        margin: 0 16px;
+                        line-height: 40px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            #item{
+                @include base(760px);
+                #tab{
+                    @include base(758px,38px);
+                    border: 1px solid lightgrey;
+                    ul{
+                        li{
+                            float: left;
+                            margin: 0 5px;
+                            a{
+                                line-height: 38px;
+                                padding: 0 5px;
+                                text-decoration: none;
+                                color: blue;
+                            }
+                            
+                        }
+                    }
+                }
+                #list{
+                    @include base(760px);
+                    .lis{
+                        position: relative;
+                        @include base(750px,72px);
+                        padding: 12px 0 10px 10px;
+                        border-bottom: 1px solid lightgrey;
+                        img{
+                            float: left;
+                            @include base(70px,70px);
+                            border: 1px solid lightgrey;
+                            margin-right: 15px;
+                        }
+                        div{
+                            font-size: 14px;
+                            float: left;
+                            @include base(420px,45px);
+                            a{
+                                text-decoration: none;
+                            }
+                            .maney{
+                                color: red;
+                                font-size:18px;
+                                position: absolute;
+                                top: 30px;
+                                right: 150px;
+                            }
+                            button{
+                                @include base(80px,30px);
+                                background: orange;
+                                border-radius: 5px;
+                                position: absolute;
+                                top: 30px;
+                                right: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+footer{
+    @include base(100%,290px);
+    border-top: 1px solid lightgray;
+    #heads{
+        position: relative;
+        left: 490px;
+        margin-left: -320px;
+        @include base(980px,114px);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        div{
+            @include base(196px,114px);
+            span{
+                display: inline-block;
+                @include base(43px,43px);
+                margin-left: 28px;
+                margin-right: 6px;
+                background-image: url(../images/1.gif);
+                background-repeat: no-repeat;
+                background-position: 0 0;
+            }
+            .conT{
+                float: right;
+                @include base(112px,114px);
+                h3{
+                    line-height: 36px;
+                    color: gray;
+                }
+                a{
+                    color: grey;
+                    display: block;
+                    text-decoration: none;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+    #foot{
+        @include base(100%,94px);
+        h5{
+            @include base(100%,24px);
+            text-align: center;
+            line-height: 24px;
+            font:12px/1.5em "Microsoft YaHei","Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+            color: #5A5A5A;
+        }
+    }
+}
+#mb{
+    @include base(100%,100%);
+    position: fixed;
+    display: none;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
+    #container{
+        @include base(800px,600px);
+        background: white;
+        position: absolute;
+        left: 50%;
+        top:50%;
+        margin-left: -400px;
+        margin-top: -300px;
+    }
+}
+#xixi{
+    @include base(488px);
+    background: white;
+    position: absolute;
+    z-index: 99999;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    text-indent: 2em;
+    border-left: 1px solid greenyellow;
+    border-right: 1px solid greenyellow;
+    border-bottom: 1px solid greenyellow;
+}
+

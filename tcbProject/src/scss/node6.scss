@@ -1,0 +1,136 @@
+@mixin bg($imgs){
+  background: $imgs;
+}
+@mixin border($style,$one,$two,$shree,$flag:0) {
+  @if $flag == 0 {
+    border: $one $two $shree;
+  } @else {
+    border-#{$style}: $one $two $shree;
+  }
+}
+@mixin mag($style,$one,$flag:0) {
+  @if $flag == 0 {
+    margin: $one;
+  } @else {
+    margin-#{$style}: $one;
+  }
+}
+@mixin text($aln:center,$lin:0px){
+  text-align: $aln;
+  line-height: $lin;
+}
+@mixin float($l:left){
+  float: $l;
+}
+@mixin font($ft:14px,$color:#666){
+  font-size: $ft;
+  color: $color;
+}
+@mixin wh($w:100%,$h:auto){
+  width: $w;
+  height: $h;
+}
+@mixin dis($d:block){
+  display: $d;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,ol,dl{
+  list-style: none;
+}
+header{
+  @include wh($h:33px);
+  @include border($style:bottom,$one:1px,$two:solid,$shree:#666,$flag:1);
+  @include font($ft:10px);
+  @include bg($imgs:url(../images/homeImg/bg.png) repeat-x);
+  span{
+    @include font($ft:18px,$color:green);
+  }
+  ul{
+    @include wh($w:50%);
+    @include dis($d:flex);
+    justify-content: space-around;
+    li:nth-child(7) a{
+      @include font($color:red);
+    }
+  }
+}
+a{
+  text-decoration: none;
+  @include font($color:#666);
+}
+.head{
+  //line-height: 33px;
+  @include text($lin:33px);
+  @include wh($w:90%);
+  margin: 0 auto;
+}
+.l{
+  @include float()
+}
+.r{
+  @include float($l:right);
+}
+img{
+  width: 100%;
+  display: block;
+}
+footer{
+    width: 100%;
+    height: 290px;
+    border-top: 1px solid lightgray;
+    #heads{
+        position: relative;
+        left: 490px;
+        margin-left: -320px;
+        width: 980px;
+        height: 114px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        div{
+            width: 196px;
+            height: 114px;
+            span{
+                width: 43px;
+                height: 43px;
+                display: inline-block;
+                margin-left: 28px;
+                margin-right: 6px;
+                background-image: url(../images/1.gif);
+                background-repeat: no-repeat;
+                background-position: 0 0;
+            }
+            .conT{
+                float: right;
+                width: 112px;
+                height: 114px;
+                h3{
+                    line-height: 36px;
+                    color: gray;
+                }
+                a{
+                    color: grey;
+                    display: block;
+                    text-decoration: none;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+    #foot{
+        width: 100%;
+        height: 94px;
+        h5{
+            width: 100%;
+            height: 24px;
+            text-align: center;
+            line-height: 24px;
+            font:12px/1.5em "Microsoft YaHei","Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+            color: #5A5A5A;
+        }
+    }
+}

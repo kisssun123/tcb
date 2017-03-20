@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+a {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+html {
+  font-size: 18px;
+  width: 100%; }
+
+body {
+  width: 100%; }
+
+#out {
+  width: 100%;
+  color: grey; }
+  #out nav {
+    width: 100%;
+    height: 2rem;
+    background-color: #f5f5f5; }
+    #out nav p {
+      float: left;
+      font-size: 14px;
+      margin-left: 6%;
+      line-height: 2rem; }
+      #out nav p a {
+        color: #CCCCCC;
+        margin-right: 15px;
+        margin-left: 15px; }
+    #out nav ul {
+      height: 1.5rem;
+      float: right;
+      margin-right: 6%;
+      line-height: 1.5rem; }
+      #out nav ul li {
+        float: right;
+        font-size: 14px;
+        line-height: 2rem; }
+        #out nav ul li span {
+          padding-right: 5px; }
+        #out nav ul linth-child(last) {
+          margin-left: 0px; }
+        #out nav ul li a {
+          float: left;
+          margin-top: 0.2rem;
+          font-size: 14px;
+          display: block;
+          line-height: 1.5rem;
+          color: #666666;
+          padding-right: 10px; }
+        #out nav ul lihover {
+          color: red; }
+        #out nav ul linth-child(last) {
+          margin-left: 0px; }
+  #out header {
+    width: 100%;
+    height: 150px; }
+    #out header .head-left {
+      width: 350px;
+      height: 70px;
+      float: left;
+      margin-left: 6%; }
+      #out header .head-left a img {
+        width: 350px;
+        height: 70px;
+        float: left; }
+    #out header ul {
+      width: 416px;
+      height: 70px;
+      float: left;
+      padding-left: 130px; }
+      #out header ul li {
+        width: 104px;
+        height: 70px;
+        text-align: center;
+        line-height: 70px;
+        float: left; }
+    #out header form {
+      width: 273px;
+      height: 40px;
+      float: right;
+      margin-right: 6%;
+      margin-top: 15px; }
+      #out header form input {
+        width: 228px;
+        height: 38px;
+        float: left; }
+      #out header form button {
+        width: 40px;
+        height: 41px;
+        background: green;
+        float: left; }
+  #out main {
+    width: 100%; }
+    #out main ul {
+      margin-top: -70px; }
+      #out main ul li {
+        text-indent: 10px;
+        width: 1200px;
+        height: 358px;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 6px; }
+        #out main ul li p {
+          font-size: 20px; }
+        #out main ul li a span {
+          width: 5px;
+          height: 30px;
+          display: block;
+          background: green;
+          float: left; }
+        #out main ul li a img {
+          width: 1200px;
+          height: 327px; }
+  #out .foot {
+    width: 100%;
+    height: 150px; }
+    #out .foot ul {
+      display: block;
+      width: 1200px;
+      height: 100%;
+      float: left;
+      margin-left: 5.5%; }
+      #out .foot ul li {
+        width: 220px;
+        height: 110px;
+        text-align: center;
+        padding-top: 20px;
+        float: left;
+        font-size: 14px; }
+        #out .foot ul li img {
+          width: 68px;
+          height: 69px; }
+        #out .foot ul li p {
+          color: grey;
+          margin-top: 5px; }
+    #out .foot div {
+      float: left;
+      margin-left: 40px;
+      text-align: center;
+      margin-top: 20px; }
+      #out .foot div h4 {
+        color: green; }
+      #out .foot div span {
+        display: inline-block;
+        width: 160px;
+        height: 35px;
+        background: green;
+        line-height: 35px;
+        color: white; }
+      #out .foot div p {
+        font-size: 14px;
+        color: grey;
+        margin-top: 6px;
+        margin-bottom: 6px; }
+  #out address {
+    height: 150px;
+    width: 100%;
+    background: green;
+    text-align: center;
+    font-size: 15px; }
+    #out address p {
+      height: 75px;
+      line-height: 95px;
+      color: white; }
+      #out address p:nth-child(2) {
+        margin-top: -50px;
+        height: 75px; }
